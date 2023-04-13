@@ -1,6 +1,8 @@
 # Scan2LoD3
 Implementation of the CVPR paper "Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks"
 
+[Project's website](https://sites.google.com/view/olafwysocki/papers/scan2lod3)
+
 ## Implementation overview
 
 The implementation can be divided into several steps:
@@ -21,6 +23,10 @@ author = {Wysocki, O., Xia, Y., Wysocki M., Grilli, E., Hoegner, L., Cremers D.,
 keywords = {MLS point clouds, Building reconstruction, Semantic 3D building models, Underpasses, Buildings refinement, Bayesian networks, Uncertainty},
 }
 ```
+
+## Data
+
+Small sample dataset it attached to this repo: \raycasting\examples. For the vector objects and point cloud please check the [**tum2twin**](https://github.com/tum-gis/tum2twin) benchmark dataset.
 
 ## Contact details
 

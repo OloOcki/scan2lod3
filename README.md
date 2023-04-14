@@ -1,14 +1,27 @@
 # Scan2LoD3
 Implementation of the CVPR paper "Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks"
 
+<p float="center">
+    <img src="https://github.com/OloOcki/tum-facade/blob/main/img/frontFigure.png" width="95%" title="frontFigure"/>
+</p>
+
+Scan2LoD3: Our method reconstructs detailed semantic 3D building models; Its backbone is laser rays’ physics providing geometrical cues enhancing semantic segmentation accuracy.
+
 [Project's website](https://sites.google.com/view/olafwysocki/papers/scan2lod3) [**tum2twin** benchmark](https://github.com/tum-gis/tum2twin)
 
 ## Highlights
+**BEFORE scan2lod3: LoD2**
+![](https://github.com/OloOcki/scan2lod3/blob/main/img/lod2.gif)
 
-![](https://github.com/OloOcki/tum-facade/blob/main/img/lod2.gif)
-![](https://github.com/OloOcki/tum-facade/blob/main/img/lod3reconstructed.gif)
+![](https://github.com/OloOcki/scan2lod3/blob/main/img/LoD3reconstructed.gif)
+**AFTER scan2lod3: LoD3**
 
-![](https://github.com/OloOcki/tum-facade/blob/main/img/rayCasting.gif)
+Our approach to visibility analysis:
+![](https://github.com/OloOcki/scan2lod3/blob/main/img/rayCasting.gif)
+Visibility analysis using laser scanning observations and 3D models on a voxel grid. The ray is traced from the sensor position si to the hit point pi. 
+The voxel is: empty if the ray traverses it; occupied when it contains pi; unknown if unmeasured; confirmed when occupied voxel intersects with vector plane; and conflicted when the plane intersects with an empty voxel.
+
+
 
 ## Implementation overview
 

@@ -7,7 +7,7 @@ Implementation of the CVPR paper "Scan2LoD3: Reconstructing semantic 3D building
 
 The implementation can be divided into several steps:
 1. Ray casting (C++) 
-2. ...
+2. Bayesian network, fusion (R)
 
 *full overview - pending*
 

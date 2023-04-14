@@ -12,6 +12,17 @@ Scan2LoD3: Our method reconstructs detailed semantic 3D building models; Its bac
 [Project's website](https://sites.google.com/view/olafwysocki/papers/scan2lod3) [**tum2twin** benchmark](https://github.com/tum-gis/tum2twin)
 
 ## Highlights
+<p align="center">
+    <img src="https://github.com/OloOcki/scan2lod3/blob/main/img/gist.png" width="100%" title="frontFigure"/>
+</p>
+
+The workflow of the proposed Scan2LoD3 consists of three parallel branches: 
+ - The first is generating the point cloud probability map based on a modified Point Transformer network (top); 
+- the second is producing a conflicts probability map from the visibility of the laser scanner in conjunction with a 3D building model (middle); 
+- and the third is using Mask-RCNN to obtain a texture probability map from 2D images. 
+We then fuse three probability maps with a Bayesian network to obtain the final facade-level segmentation, enabling a CityGML-compliant LoD3 building model reconstruction.
+
+
 **BEFORE scan2lod3: LoD2**
 ![](https://github.com/OloOcki/scan2lod3/blob/main/img/lod2.gif)
 **AFTER scan2lod3: LoD3**

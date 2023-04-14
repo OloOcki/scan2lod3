@@ -3,6 +3,13 @@ Implementation of the CVPR paper "Scan2LoD3: Reconstructing semantic 3D building
 
 [Project's website](https://sites.google.com/view/olafwysocki/papers/scan2lod3) [**tum2twin** benchmark](https://github.com/tum-gis/tum2twin)
 
+## Highlights
+
+![](https://github.com/OloOcki/tum-facade/blob/main/img/lod2.gif)
+![](https://github.com/OloOcki/tum-facade/blob/main/img/lod3reconstructed.gif)
+
+![](https://github.com/OloOcki/tum-facade/blob/main/img/rayCasting.gif)
+
 ## Implementation overview
 
 The implementation can be divided into several steps:

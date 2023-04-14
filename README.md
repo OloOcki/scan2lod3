@@ -1,8 +1,10 @@
 # Scan2LoD3
-Implementation of the CVPR paper "Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks"
+Implementation of the CVPR paper: 
 
-<p float="center">
-    <img src="https://github.com/OloOcki/tum-facade/blob/main/img/frontFigure.png" width="95%" title="frontFigure"/>
+"Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks"
+
+<p align="center">
+    <img src="https://github.com/OloOcki/scan2lod3/blob/main/img/frontFigure.png" width="40%" title="frontFigure"/>
 </p>
 
 Scan2LoD3: Our method reconstructs detailed semantic 3D building models; Its backbone is laser rays’ physics providing geometrical cues enhancing semantic segmentation accuracy.
@@ -12,9 +14,9 @@ Scan2LoD3: Our method reconstructs detailed semantic 3D building models; Its bac
 ## Highlights
 **BEFORE scan2lod3: LoD2**
 ![](https://github.com/OloOcki/scan2lod3/blob/main/img/lod2.gif)
-
-![](https://github.com/OloOcki/scan2lod3/blob/main/img/LoD3reconstructed.gif)
 **AFTER scan2lod3: LoD3**
+![](https://github.com/OloOcki/scan2lod3/blob/main/img/LoD3reconstructed.gif)
+
 
 Our approach to visibility analysis:
 ![](https://github.com/OloOcki/scan2lod3/blob/main/img/rayCasting.gif)

@@ -1,5 +1,5 @@
 # :rotating_light: Scan2LoD3 :cityscape:
-Implementation of the CVPR '23 paper: 
+Implementation of the CVPR Workshops '23 paper: 
 
 "Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks"
 

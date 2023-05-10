@@ -9,9 +9,9 @@ Implementation of the CVPR Workshops '23 paper:
 
 Scan2LoD3: Our method reconstructs detailed semantic 3D building models; Its backbone is laser rays’ physics providing geometrical cues enhancing semantic segmentation accuracy.
 
-[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button1.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3)
-[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button2.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3)
-[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button3.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3) 
+[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button1.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3?authuser=1)
+[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button2.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3?authuser=1)
+[<img src="https://github.com/OloOcki/scan2lod3/blob/main/img/button3.png" width="120"/>](https://sites.google.com/view/olafwysocki/papers/scan2lod3?authuser=1) 
 
 ## :star2: Highlights :star2:
 <p align="center">

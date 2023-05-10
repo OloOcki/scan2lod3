@@ -43,8 +43,10 @@ The implementation can be divided into several steps:
 1. Ray casting (C++)
 2. Mask-RCNN (Python)
 3. Point Transformer (Python)
-4. Confidence estimation; probability map projection; CityGML-compliant 3D modeling (FME)
-5. Bayesian network (R)
+4. Confidence estimation; probability map projection; 
+5. Bayesian network estimate (R)
+6. Shape extraction (FME)
+7. CityGML-compliant 3D modeling (FME)
 
 ## :mortar_board: Paper
 
@@ -53,9 +55,8 @@ For the in-depth conept understanding do not hesitate to check out the paper:
 ```plain
 @article{scan2lod3Wysockietal,
 title = {Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks},
-journal = {International Journal of Applied Earth Observation and Geoinformation},
+journal = {Accepted for CVPRW},
 author = {Wysocki, O., Xia, Y., Wysocki M., Grilli, E., Hoegner, L., Cremers D., and Stilla, U.},
-keywords = {MLS point clouds, Building reconstruction, Semantic 3D building models, Underpasses, Buildings refinement, Bayesian networks, Uncertainty},
 }
 ```
 

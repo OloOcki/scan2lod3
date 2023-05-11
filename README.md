@@ -53,10 +53,13 @@ The implementation can be divided into several steps:
 For the in-depth conept understanding do not hesitate to check out the paper:
 
 ```plain
-@article{scan2lod3Wysockietal,
-title = {Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks},
-journal = {Accepted for CVPRW},
-author = {Wysocki, O., Xia, Y., Wysocki M., Grilli, E., Hoegner, L., Cremers D., and Stilla, U.},
+@misc{wysocki2023scan2lod3,
+      title={Scan2LoD3: Reconstructing semantic 3D building models at LoD3 using ray casting and Bayesian networks}, 
+      author={Olaf Wysocki and Yan Xia and Magdalena Wysocki and Eleonora Grilli and Ludwig Hoegner and Daniel Cremers and Uwe Stilla},
+      year={2023},
+      eprint={2305.06314},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 

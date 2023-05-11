@@ -69,4 +69,4 @@ Small sample dataset it attached to this repo: \raycasting\examples. For the vec
 
 ## :mailbox: Contact details
 
-Should you have any further questions do not hesitate to ask me: olaf.wysocki@tum.de
+Should you have any further questions do not hesitate to drop me an email: olaf.wysocki@tum.de

@@ -65,7 +65,7 @@ For the in-depth conept understanding do not hesitate to check out the paper:
 
 ## :minidisc: Data
 
-Small sample dataset it attached to this repo: \raycasting\examples. For the vector objects and point cloud please check the [**tum2twin**](https://github.com/tum-gis/tum2twin) benchmark dataset.
+Small sample dataset it attached to this repo: \raycasting\examples. For the vector objects and point cloud please check the [**tum2twin**](https://github.com/tum-gis/tum2twin) (soon available!) benchmark dataset.
 
 ## :mailbox: Contact details
 

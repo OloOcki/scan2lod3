@@ -1,0 +1,117 @@
+2023-05-15 18:04:31|   0.0|  0.0|INFORM|FME 2020.1.2.1 (20200909 - Build 20624 - WIN64)
+2023-05-15 18:04:31|   0.0|  0.0|INFORM|FME_HOME is 'C:\Software\FME\'
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|FME Desktop Oracle Edition (floating)
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|Temporary License: 109 days left.
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|Machine host name is: DESKTOP-HPMLL4E
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|START - ProcessID: 16640, peak process memory usage: 38300 kB, current process memory usage: 38300 kB
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Software\FME\fme.exe' `D:/projects/PointCloud_Image_fusion/github/scan2lod3/LoD3modeling\wb-xlate-1684166666098_2932' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{c057625a-1c2b-4e00-ab55-fef73d92aa2f}' `LOG_TIMINGS' `Yes'
+2023-05-15 18:04:31|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\Olaf Wysocki\AppData\Roaming\Safe Software\FME\'
+2023-05-15 18:04:31|   0.4|  0.3|INFORM|Shared folders for formats are : C:\Software\FME\datasources;C:\Users\Olaf Wysocki\Documents\FME\Formats
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for transformers are : C:\Users\Olaf Wysocki\AppData\Roaming\Safe Software\FME\Packages\20624-win64\transformers;C:\Software\FME\transformers;C:\Users\Olaf Wysocki\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Olaf Wysocki\Documents\FME\CoordinateSystems
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Olaf Wysocki\Documents\FME\CoordinateSystemExceptions
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Olaf Wysocki\Documents\FME\CoordinateSystemGridOverrides
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Olaf Wysocki\Documents\FME\CsmapTransformationExceptions
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Olaf Wysocki\Documents\FME\TransformerCategories
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Current working folder is `D:\projects\PointCloud_Image_fusion\github\scan2lod3\LoD3modeling'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\OLAFWY~1\AppData\Local\Temp\wbrun_1684166646387_2932\fmetmp_1684166667251_2932', set from environment variable `FME_TEMP'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Software\FME\'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'D:\projects\PointCloud_Image_fusion\github\scan2lod3\LoD3modeling/'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Creating_Lod3_model.fmw'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2020.1.2.1'
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|System Status: 123.98 GB of disk space available in the FME temporary folder (C:\Users\OLAFWY~1\AppData\Local\Temp\wbrun_1684166646387_2932\fmetmp_1684166667251_2932)
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|System Status: 31.82 GB of physical memory available
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|System Status: 127.26 GB of virtual memory available
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 19041)
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Platform: WIN64
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Locale: en_GB
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|System Encoding: windows-1250
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 95.45 GB
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 71.58 GB
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Creating writer for format: 
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Creating reader for format: 
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding SKP Reader with keyword SKP_1
+2023-05-15 18:04:31|   0.4|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Creating reader for format: Trimble SketchUp
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `SKP'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Loaded module 'SKP' from file 'C:\Software\FME\plugins/skp/skp.dll'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|FME API version of module 'SKP' matches current internal version (3.8 20200115)
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Opening Trimble Sketchup reader
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|SketchUp Reader: Read Hidden Geometry: 'Auto'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|SketchUp Reader: Color by Layer: 'Auto'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|SketchUp Reader: Read Edges: 'No'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Software\FME\plugins/LogCount_func.dll'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20200115)
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Software\FME\plugins/InspectorFactory.dll'
+2023-05-15 18:04:31|   0.5|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20200115)
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|FME Configuration: Source coordinate system for reader SKP_1[SKP] set to `XY-M' as read from input data
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Coordinate System `XY-M' parameters: CS_NAME=`XY-M' DESC_NM=`Arbitrary X-Y Coordinates (Meters)' GROUP=`NERTH' MAP_SCL=`1' PROJ=`NERTH' QUAD=`1' SCL_RED=`1' SOURCE=`Autodesk' UNIT=`Meter'
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\OLAFWY~1\AppData\Local\Temp\wb-cache-Creating_Lod3_model-nQnRCx\Main_rectangularWindow -1 34 -1  0  48804da3c46cf9211f2ce60ca6fc51e301ee90be.ffsupdating'
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\OLAFWY~1\AppData\Local\Temp\wb-inspectors-UaPUuF\inspector.ffs'
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 1 features from 1 readers
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Emptying factory pipeline
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 1 matched merge filters, 1 were routed to output, 0 could not be routed.
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |GenericCityObject_CITYGML_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |CityModel_CITYGML_2 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |WallSurface_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |RoofSurface_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |GroundSurface_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |CityModel_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Building_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Address_CITYGML_1 Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |rectangularWindow_SKP_1 Splitter (TeeFactory): Cloned 1 input feature(s) into 2 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |rectangularWindow_SKP_1_0_Z1wO1XFkj2o= Feature Counter -1 176 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |rectangularWindow_SKP_1_1_Sx6dHdxvY3U= Feature Counter -1 287 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\OLAFWY~1\AppData\Local\Temp\wb-cache-Creating_Lod3_model-nQnRCx\Main_rectangularWindow -1 34 -1  0  48804da3c46cf9211f2ce60ca6fc51e301ee90be.ffsupdating'
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\OLAFWY~1\AppData\Local\Temp\wb-cache-Creating_Lod3_model-nQnRCx\Main_rectangularWindow -1 34 -1  0  48804da3c46cf9211f2ce60ca6fc51e301ee90be.fsi'
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\OLAFWY~1\AppData\Local\Temp\wb-cache-Creating_Lod3_model-nQnRCx\Main_rectangularWindow -1 34 -1  0  48804da3c46cf9211f2ce60ca6fc51e301ee90be.fsi'
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\OLAFWY~1\AppData\Local\Temp\wb-inspectors-UaPUuF\inspector.ffs'
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Saving spatial index into file 'C:\Users\OLAFWY~1\AppData\Local\Temp\wb-inspectors-UaPUuF\inspector.fsi'
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\OLAFWY~1\AppData\Local\Temp\wb-inspectors-UaPUuF\inspector.fsi'
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 0 were routed to output, 1 could not be routed.
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|STATS |VisualizerProcessor (CreationFactory): Created 1 features
+2023-05-15 18:04:32|   0.5|  0.0|STATS |VisualizerCleaner (TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |      Features not written - verify feature type fanout/dynamic settings
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |  (Check that fanout/dynamic feature type attribute exists and has a value)
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |                                                                             1
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |==============================================================================
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |Total features not written                                                   1
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |                            Features Read Summary
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |rectangularWindow                                                            1
+2023-05-15 18:04:32|   0.5|  0.0|STATS |==============================================================================
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Total Features Read                                                          1
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |                           Features Written Summary
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|STATS |==============================================================================
+2023-05-15 18:04:32|   0.5|  0.0|STATS |Total Features Written                                                       0
+2023-05-15 18:04:32|   0.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~                                                                             ~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~                                                                             ~-
+2023-05-15 18:04:32|   0.5|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|Translation was SUCCESSFUL with 16 warning(s) (0 feature(s) output)
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|FME Session Duration: 0.8 seconds. (CPU: 0.1s user, 0.1s system)
+2023-05-15 18:04:32|   0.5|  0.0|INFORM|END - ProcessID: 16640, peak process memory usage: 51868 kB, current process memory usage: 51868 kB

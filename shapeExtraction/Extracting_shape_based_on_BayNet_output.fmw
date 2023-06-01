@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.1.2.1 (20200909 - Build 20624 - WIN64)"
-#!   LAST_SAVE_DATE="2023-05-25T13:53:28"
+#!   LAST_SAVE_DATE="2023-06-01T10:16:38"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,10 +49,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="7174.95 129.42"
+#!   VIEW_POSITION="1230.48 3925.82"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="99"
+#!   ZOOM_SCALE="16"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -1964,10 +1964,10 @@
 #! <COMMENT
 #!   IDENTIFIER="406"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;0.01&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="671.96325505381435 -1162.9912518751348"
-#!   TOP_LEFT="671.96325505381435 -1162.9912518751348"
-#!   BOTTOM_RIGHT="1125.9632550538145 -1163.9912518751348"
-#!   BOUNDING_RECT="671.96325505381435 -1162.9912518751348 454 1"
+#!   POSITION="668.80665783127631 -1166.1478490976729"
+#!   TOP_LEFT="668.80665783127631 -1166.1478490976729"
+#!   BOTTOM_RIGHT="1122.8066578312764 -1167.1478490976729"
+#!   BOUNDING_RECT="668.80665783127631 -1166.1478490976729 454 1"
 #!   ORDER="500000000004221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -12642,8 +12642,8 @@
 #!   IDENTIFIER="418"
 #!   TYPE="Bufferer"
 #!   VERSION="16"
-#!   POSITION="709.96325505381435 -1296.7419393820098"
-#!   BOUNDING_RECT="709.96325505381435 -1296.7419393820098 454 71"
+#!   POSITION="706.80665783127631 -1299.8985366045479"
+#!   BOUNDING_RECT="706.80665783127631 -1299.8985366045479 454 71"
 #!   ORDER="500000000004217"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -12685,8 +12685,8 @@
 #!   IDENTIFIER="420"
 #!   TYPE="Dissolver"
 #!   VERSION="16"
-#!   POSITION="1391.4612830338831 -1201.6948599392531"
-#!   BOUNDING_RECT="1391.4612830338831 -1201.6948599392531 454 71"
+#!   POSITION="1388.3046858113451 -1204.8514571617911"
+#!   BOUNDING_RECT="1388.3046858113451 -1204.8514571617911 454 71"
 #!   ORDER="500000000004218"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -15042,8 +15042,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_2_InputPassThrough    IN
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_2_InstanceTest    INPUT FEATURE_TYPE GeometryFilter_2___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_2___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_2_CollectionTest    INPUT FEATURE_TYPE GeometryFilter_2___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter_2___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter_2___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_2_Deagg    INPUT FEATURE_TYPE GeometryFilter_2___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_2_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_2___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_2___Input___    OUTPUT FEATURE_TYPE GeometryFilter_2___Prepped___        GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018471_targetFeatureType @Lookup(GeometryFilter_2_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_2_Router    INPUT FEATURE_TYPE GeometryFilter_2___Prepped___    TEST @Value(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018471_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018471_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018471_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_2_<UNFILTERED>        @RemoveAttributes(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018471_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_2_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_2___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_2___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_2___Input___    OUTPUT FEATURE_TYPE GeometryFilter_2___Prepped___        GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018472_targetFeatureType @Lookup(GeometryFilter_2_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_2_Router    INPUT FEATURE_TYPE GeometryFilter_2___Prepped___    TEST @Value(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018472_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018472_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018472_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_2_<UNFILTERED>        @RemoveAttributes(GeometryFilter_2_504ae8a4_35b5_4c4c_9bee_3ba1b76018472_targetFeatureType)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter_2 NULL Transformer Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_2_NULL
 # -------------------------------------------------------------------------
 INCLUDE [if { ("JOIN_ARC" == "JOIN_MITER") } {         } else {             puts "MACRO MITER_TO_USE 0"         }         ]
@@ -15082,8 +15082,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_InputPassThrough    IN
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_3_InstanceTest    INPUT FEATURE_TYPE GeometryFilter_3___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_3_CollectionTest    INPUT FEATURE_TYPE GeometryFilter_3___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter_3___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_3_Deagg    INPUT FEATURE_TYPE GeometryFilter_3___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_3___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_3___Input___    OUTPUT FEATURE_TYPE GeometryFilter_3___Prepped___        GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f1_targetFeatureType @Lookup(GeometryFilter_3_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_3_Router    INPUT FEATURE_TYPE GeometryFilter_3___Prepped___    TEST @Value(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f1_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f1_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f1_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3_<UNFILTERED>        @RemoveAttributes(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f1_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_3___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_3___Input___    OUTPUT FEATURE_TYPE GeometryFilter_3___Prepped___        GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f2_targetFeatureType @Lookup(GeometryFilter_3_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_3_Router    INPUT FEATURE_TYPE GeometryFilter_3___Prepped___    TEST @Value(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f2_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f2_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f2_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3_<UNFILTERED>        @RemoveAttributes(GeometryFilter_3_615ca76c_b888_42fc_8fe1_247513f50a2f2_targetFeatureType)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter_3 NULL Transformer Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_3_NULL
 # -------------------------------------------------------------------------
 INCLUDE [if { ("JOIN_ARC" == "JOIN_MITER") } {         } else {             puts "MACRO MITER_TO_USE 0"         }         ]

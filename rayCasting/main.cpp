@@ -154,53 +154,6 @@ int main(int argc, char *argv[]) {
     string oPath = argv[2];
     outpath.append(oPath);
 
-    //e.g,:
-    // /home/olaf/Olaf/PhD/pfg2021/data/utm/mlsOccupiedFree/...;
-
-    //BBox search for selected bld (id: DEBY_LOD2_4959458_B)  --> how about using the BBox from loaded citygml blds and buffer them?
-
-/*
-    //ID: DEBY_LOD2_4959458_B (OK)
-//    unsigned int Xmin = 260;
-//    unsigned int Ymin = 225;
-//    unsigned int Xmax = 325;
-//    unsigned int Ymax = 262;
-
-    //ID: DEBY_LOD2_4959460 (OK)
-//    unsigned int Xmin = 228;
-//    unsigned int Ymin = 268;
-//    unsigned int Xmax = 349;
-//    unsigned int Ymax = 354;
-
-    //ID: DEBY_LOD2_4959462 (OK)
-//    unsigned int Xmin = 301;
-//    unsigned int Ymin = 240;
-//    unsigned int Xmax = 332;
-//    unsigned int Ymax = 285;
-
-
-    //ID: DEBY_LOD2_4906970 (OK)
-//    unsigned int Xmin = 190;
-//    unsigned int Ymin = 36;
-//    unsigned int Xmax = 211;
-//    unsigned int Ymax = 55;
-*/
-
-    //ID: pfister, DEBY_LOD2_4957921 (...)
-//    unsigned int Xmin = 1094;
-//    unsigned int Ymin = 1054;
-//    unsigned int Xmax = 1140;
-//    unsigned int Ymax = 1090;
-//    unsigned int Zmin = 0;    //from the lowest...
-//    unsigned int Zmax = 1000; //...to arbitrarily high
-
-    //ID: pfister, DEBY_LOD2_4959323 (...)
-//    unsigned int Xmin = 142;
-//    unsigned int Ymin = 158;
-//    unsigned int Xmax = 196;
-//    unsigned int Ymax = 236;
-//    unsigned int Zmin = 0;    //from the lowest...
-//    unsigned int Zmax = 1000; //...to arbitrarily high
 
     unsigned int Xmin = 151;
     unsigned int Ymin = 82;
@@ -214,9 +167,6 @@ int main(int argc, char *argv[]) {
     cout << endl;
     cout << "Selected BBox: " << "[Xmin: " << Xmin << " Ymin: " << Ymin << " Xmax: " << Xmax << " Ymax: " << Ymax << "]" << endl;
 
-    //TEST
-    //int testSetMLS = 10;
-    //int testSetGML = 0;
 
     //init octo-tree with 0.1m resolution
     OcTree tree(0.1);
